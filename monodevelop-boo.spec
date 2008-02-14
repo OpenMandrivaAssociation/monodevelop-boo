@@ -10,6 +10,7 @@ Source0:	http://go-mono.com/sources/monodevelop-boo/%{name}-%{version}.tar.gz
 BuildRequires:	boo monodevelop >= 0.18
 Summary:	Monodevelop Boo Addin
 Group:		Development/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 # Boo's assemblies are always version at 1.0.0.0.  Force built against or newer.
 Requires:       boo >= %boo_version
 
