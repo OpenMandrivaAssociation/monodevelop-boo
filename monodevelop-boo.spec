@@ -7,7 +7,7 @@ License:	LGPL
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/monodevelop-boo/%{name}-%{version}.tar.gz
-BuildRequires:	boo monodevelop >= 0.19
+BuildRequires:	boo monodevelop >= 0.19 mono-addins
 Summary:	Monodevelop Boo Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
