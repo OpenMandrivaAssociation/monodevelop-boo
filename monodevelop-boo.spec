@@ -3,7 +3,7 @@
 Name:     	monodevelop-boo
 Version:	1.0
 Release:	%mkrel 1
-License:	LGPL
+License:	GPLv2+
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/monodevelop-boo/%{name}-%{version}.tar.gz
