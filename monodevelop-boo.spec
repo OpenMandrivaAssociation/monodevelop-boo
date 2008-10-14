@@ -10,7 +10,7 @@ Source0:	http://go-mono.com/sources/monodevelop-boo/%{name}-%{version}.tar.gz
 BuildRequires:	boo
 BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-devel
-BuildRequires:  gtksourceview-sharp
+BuildRequires:  gtksourceview-sharp-devel
 Summary:	Monodevelop Boo Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
