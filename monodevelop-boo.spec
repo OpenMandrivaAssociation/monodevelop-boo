@@ -1,12 +1,12 @@
 # Find version of boo
 %define boo_version %(rpm -q boo --queryformat '%{VERSION}')
 Name:     	monodevelop-boo
-Version:	1.9
-Release:	%mkrel 4
+Version:	1.9.1
+Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
 URL:		http://www.go-mono.com
-Source0:	http://go-mono.com/sources/monodevelop-boo/%{name}-%{version}.tar.gz
+Source0:	http://ftp.novell.com/pub/mono/sources/monodevelop-boo/%{name}-%{version}.tar.bz2
 BuildRequires:	boo
 BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-devel
