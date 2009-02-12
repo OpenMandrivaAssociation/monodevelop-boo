@@ -1,7 +1,7 @@
 # Find version of boo
 %define boo_version %(rpm -q boo --queryformat '%{VERSION}')
 Name:     	monodevelop-boo
-Version:	1.9.1
+Version:	1.9.2
 Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
