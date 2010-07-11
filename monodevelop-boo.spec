@@ -1,7 +1,7 @@
 # Find version of boo
 %define boo_version %(rpm -q boo --queryformat '%{VERSION}')
 Name:     	monodevelop-boo
-Version:	2.2
+Version:	2.4
 Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
@@ -44,7 +44,9 @@ rm -rf "$RPM_BUILD_ROOT"
 %files -f %name.lang
 %defattr(-, root, root)
 %_datadir/pkgconfig/monodevelop-boo.pc
+%dir %_prefix/lib/monodevelop/AddIns/BooBinding/
 %_prefix/lib/monodevelop/AddIns/BooBinding/BooShell.dll*
 %_prefix/lib/monodevelop/AddIns/BooBinding/BooBinding.dll*
+%_prefix/lib/monodevelop/AddIns/BooBinding/icons
 %dir %_prefix/lib/monodevelop/AddIns/BooBinding/locale/
 
