@@ -9,6 +9,7 @@ URL:		http://www.go-mono.com
 Source0:	http://ftp.novell.com/pub/mono/sources/monodevelop-boo/%{name}-%{version}.tar.bz2
 BuildRequires:	boo
 BuildRequires:  monodevelop >= %version
+BuildRequires:  mono-addins-devel
 BuildRequires:  mono-devel
 BuildRequires:  gtksourceview-sharp-devel
 Summary:	Monodevelop Boo Addin
